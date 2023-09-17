@@ -6,10 +6,10 @@ import sender_stand_request
 def assertion_code_200():
 	response_pno = sender_stand_request.post_new_order(data.order_body)
 	track = response_pno.json()["track"]
-	response_goft = sender_stand_request.get_order_from_track(track)
-	assert response_goft.status_code == 200
+	return sender_stand_request.get_order_from_track(track).status_code
 
 
 #   Automated assertion of getting an order from its track
 def test_get_order_from_track_code_200():
-	assertion_code_200()
+	assert assertion_code_200() == data.status_code_successful
+	return assertion_code_200()

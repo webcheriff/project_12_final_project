@@ -15,3 +15,5 @@ order_body = {
         "GREEN"
     ]
 }
+
+status_code_successful = 200

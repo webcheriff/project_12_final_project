@@ -14,4 +14,3 @@ def post_new_order(order_body):
 def get_order_from_track(track):
 	return requests.get(config.URL_SERVICE + config.FIND_ORDER_FROM_TRACK_PATH + str(track),
 	                    headers = data.headers)
-
