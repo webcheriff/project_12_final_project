@@ -1,3 +1,4 @@
+#   Rostislav Cherepanov, 8th cohort – Test Engineer Plus
 import data
 import sender_stand_request
 
