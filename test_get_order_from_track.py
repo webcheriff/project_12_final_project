@@ -1,3 +1,4 @@
+#   Rostislav Cherepanov, 8th cohort – Test Engineer Plus
 import data
 import sender_stand_request
 
@@ -12,4 +13,3 @@ def assertion_code_200():
 #   Automated assertion of getting an order from its track
 def test_get_order_from_track_code_200():
 	assert assertion_code_200() == data.status_code_successful
-	return assertion_code_200()
