@@ -8,5 +8,5 @@
 3.	Execute the order request on track.
 4.	Check that the response code is 200.
 ### Configuration
-*	Server URL: https://deefea7b-103f-46d1-bc8a-4f1db79e228c.serverhub.praktikum-services.ru.
+*	Server URL: ~~https://deefea7b-103f-46d1-bc8a-4f1db79e228c.serverhub.praktikum-services.ru.~~
 *	Stack: PyCharm with `requests`, `pytest` packages.
